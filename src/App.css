@@ -1,0 +1,89 @@
+/* COMMON */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  font-size: 13px;
+}
+
+/* SEARCH */
+
+.search {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+h1 span {
+  font-size: 48px;
+}
+
+h1 img {
+  width: 40px;
+  height: 40px;
+}
+
+h2 {
+  font-size: 19px;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* LINE */
+
+.line {
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+  width: 300px;
+  height: 380px;
+  margin: 0 auto;
+}
+
+.eachLine {
+  border: none;
+  background-color: rgb(245, 230, 230);
+  padding: 3px;
+  height: 30px;
+  margin: 3px;
+}
+
+.eachLine:hover {
+  background-color: pink;
+}
+
+/* FOOTER */
+
+.footer {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.footer > div {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.footer > div > a {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: black;
+}
